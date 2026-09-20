@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #171717;
+  --muted: #6f6f6f;
+  --line: #e8e8e8;
+  --paper: #ffffff;
+  --soft: #f7f7f4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #dff1d9;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: min(100% - 2.5rem, 1120px);
+  margin-inline: auto;
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
