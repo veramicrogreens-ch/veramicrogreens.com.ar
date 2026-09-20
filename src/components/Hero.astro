@@ -1,0 +1,38 @@
+---
+import { Image } from 'astro:assets';
+import heroImage from '../assets/microgreens-rucula.webp';
+import { siteConfig } from '../site.config';
+---
+<section class="container grid gap-12 py-20 md:grid-cols-[1fr_1.15fr] md:items-center md:py-28">
+  <div>
+    <p class="eyebrow mb-6">Microgreens para gastronomía</p>
+    <h1 class="max-w-xl text-4xl leading-[1.08] tracking-[-0.04em] md:text-6xl">
+      Pequeños brotes.<br />Gran detalle.
+    </h1>
+    <p class="mt-7 max-w-lg text-base leading-8 text-neutral-600">
+      Microgreens decorativos para restaurantes que cuidan cada parte del plato.
+      Frescura, textura y ese último gesto que completa una presentación.
+    </p>
+    <div class="mt-9 flex flex-wrap gap-3">
+      <a href={siteConfig.whatsapp} target="_blank" rel="noopener noreferrer" class="border border-black bg-black px-5 py-3 text-xs uppercase tracking-[0.12em] text-white hover:bg-neutral-800">
+        Hablar por WhatsApp
+      </a>
+      <a href="#microgreens" class="border border-[var(--line)] px-5 py-3 text-xs uppercase tracking-[0.12em] hover:border-black">
+        Conocer más
+      </a>
+    </div>
+  </div>
+
+  <figure class="overflow-hidden bg-[var(--soft)]">
+    <Image
+      src={heroImage}
+      alt="Microgreens frescos de rúcula para presentación gastronómica"
+      width={1200}
+      height={900}
+      class="h-auto w-full object-cover"
+      loading="eager"
+      format="webp"
+    />
+    <figcaption class="px-4 py-3 text-[0.65rem] uppercase tracking-[0.1em] text-neutral-500">Rúcula · cultivo joven</figcaption>
+  </figure>
+</section>
