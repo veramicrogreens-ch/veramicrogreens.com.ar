@@ -1,36 +1,26 @@
 # Vera Microgreens
 
-One-page commercial website for Vera Microgreens, focused on decorative microgreens for restaurants.
-
-## Stack
-
-- Astro
-- TypeScript
-- Tailwind CSS 4 via `@tailwindcss/vite`
-- Static output for Cloudflare Pages
-- No database or backend
-
-## Local
-
-```bash
-npm install
-npm run dev
-```
-
-Production build:
-
-```bash
-npm run build
-npm run preview
-```
+Sitio estático en HTML y CSS, sin Astro, frameworks ni dependencias de terceros.
 
 ## Cloudflare Pages
 
-- Framework preset: Astro
-- Build command: `npm run build`
-- Build output directory: `dist`
-- Node.js: 20+
+Configuración de build:
+- **Framework preset:** None
+- **Build command:** `npm run build`
+- **Build output directory:** `dist`
+- **Root directory:** vacío (raíz del repositorio)
+- **Variables de entorno:** ninguna
 
-## Before publishing
+El script de build solo copia los archivos estáticos a `dist/`; no instala ni compila un framework. Cada commit a la rama `main` dispara un nuevo despliegue si el proyecto está conectado a GitHub.
 
-Update `src/site.config.ts` with the final Instagram/Facebook links and any contact details. The supplied microgreens photo is already included in the project.
+## Desarrollo
+
+Abrí `index.html` en un navegador. Para publicar cambios, editá los archivos en la raíz y hacé commit en GitHub.
+
+## Archivos principales
+
+- `index.html`: landing principal.
+- `images/microgreens-rucula.webp`: foto principal.
+- `favicon.png`: favicon VM.
+- `404.html`: página de error personalizada.
+- `_headers`: encabezados HTTP para Cloudflare Pages.
