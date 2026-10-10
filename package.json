@@ -4,6 +4,6 @@
   "private": true,
   "description": "Sitio estático de Vera Microgreens, sin frameworks ni dependencias.",
   "scripts": {
-    "build": "node -e \"const fs=require('fs');fs.rmSync('dist',{recursive:true,force:true});fs.mkdirSync('dist',{recursive:true});for(const f of ['index.html','404.html','favicon.png','robots.txt','sitemap.xml','_headers','_redirects','llms.txt','og-image.svg'])if(fs.existsSync(f))fs.copyFileSync(f,'dist/'+f);if(fs.existsSync('images'))fs.cpSync('images','dist/images',{recursive:true});console.log('Sitio estático copiado a dist/')\""
+    "build": "node build.js"
   }
 }
