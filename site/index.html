@@ -16,8 +16,12 @@
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
   <style>
-    :root{color-scheme:light;--green:#258b45;--green-dark:#1f783b;--ink:#1b1b1b;--muted:#777;--line:#e8e8e5;--paper:#fff;--soft:#f7f7f4}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Lucida Console","Courier New",monospace;font-size:14px;line-height:1.8;-webkit-font-smoothing:antialiased}a{color:inherit}header{height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 max(28px,calc((100% - 970px)/2));gap:24px}header a{text-decoration:none;font-size:12px;letter-spacing:.08em;text-transform:uppercase}header .brand{font-weight:bold;color:#171717}.wrap{width:min(970px,calc(100% - 48px));margin:auto}.hero{min-height:620px;display:grid;grid-template-columns:1fr 1.15fr;align-items:center;gap:56px;padding-top:60px;padding-bottom:72px}.eyebrow{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:#777;margin:0 0 20px}.hero h1{font-size:clamp(34px,4vw,48px);font-weight:400;line-height:1.18;letter-spacing:-.06em;margin:0 0 24px}.hero p{max-width:390px;color:#555;margin:0 0 28px}.actions{display:flex;gap:10px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 18px;text-decoration:none;font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line);transition:background .2s,color .2s}.button.primary{background:var(--green);border-color:var(--green);color:white}.button.primary:hover{background:var(--green-dark)}.button.secondary:hover{border-color:var(--green);color:var(--green)}.hero figure{margin:0;background:var(--soft)}.hero img{display:block;width:100%;height:390px;object-fit:cover;object-position:center}.hero figcaption{padding:10px 14px;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#777}.section{border-top:1px solid var(--line);padding:86px 0}.section-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:56px}.section h2{font-size:27px;line-height:1.35;letter-spacing:-.05em;font-weight:400;margin:0}.section p{margin:0 0 16px;color:#555}.section .lead{font-size:16px;color:#222}.why{background:var(--soft)}.why .section-grid{align-items:start}.why p:last-child{margin-bottom:0}.contact{padding:70px 0;text-align:center}.contact h2{margin-bottom:18px}.contact p{color:#666;margin:0 auto 24px;max-width:540px}footer{border-top:1px solid var(--line);padding:30px 0;display:flex;justify-content:space-between;align-items:center;gap:20px;color:#777;font-size:10px}footer a{text-decoration:none}footer .links{display:flex;gap:18px;flex-wrap:wrap}.whatsapp{position:fixed;right:22px;bottom:22px;z-index:5;width:56px;height:56px;border-radius:50%;background:var(--green);color:white;display:grid;place-items:center;text-decoration:none;box-shadow:0 4px 16px #0002;transition:transform .2s,background .2s}.whatsapp:hover{background:var(--green-dark);transform:translateY(-2px)}.whatsapp svg{width:27px;height:27px;fill:currentColor}@media(max-width:720px){header{height:66px;padding:0 22px}.wrap{width:calc(100% - 44px)}.hero{grid-template-columns:1fr;gap:34px;padding-top:56px;padding-bottom:56px;min-height:0}.hero h1{font-size:39px}.hero img{height:auto;max-height:390px;aspect-ratio:1.25;object-fit:cover}.section{padding:58px 0}.section-grid{grid-template-columns:1fr;gap:24px}.section h2{font-size:25px}.contact{padding:58px 0}footer{align-items:flex-start;flex-direction:column;gap:12px}.whatsapp{right:16px;bottom:16px;width:54px;height:54px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+    :root{color-scheme:light;--green:#258b45;--green-dark:#1f783b;--ink:#1b1b1b;--muted:#777;--line:#e8e8e5;--paper:#fff;--soft:#f7f7f4;--serif:Georgia,"Times New Roman",serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Lucida Console","Courier New",monospace;font-size:14px;line-height:1.8;-webkit-font-smoothing:antialiased}a{color:inherit}button{font:inherit}header{height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 max(28px,calc((100% - 970px)/2));gap:24px}header a{text-decoration:none;font-size:12px;letter-spacing:.08em;text-transform:uppercase}header .brand{font-weight:bold;color:#171717}.wrap{width:min(970px,calc(100% - 48px));margin:auto}.hero{min-height:620px;display:grid;grid-template-columns:1fr 1.15fr;align-items:center;gap:56px;padding-top:60px;padding-bottom:72px}.eyebrow{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:#777;margin:0 0 20px}.hero h1{font-size:clamp(34px,4vw,48px);font-weight:400;line-height:1.18;letter-spacing:-.06em;margin:0 0 24px}.hero p{max-width:390px;color:#555;margin:0 0 28px}.actions{display:flex;gap:10px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 18px;text-decoration:none;font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line);transition:background .2s,color .2s}.button.primary{background:var(--green);border-color:var(--green);color:white}.button.primary:hover{background:var(--green-dark)}.button.secondary:hover{border-color:var(--green);color:var(--green)}.hero figure{margin:0;background:var(--soft)}.hero img{display:block;width:100%;height:390px;object-fit:cover;object-position:center}.hero figcaption{padding:10px 14px;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#777}.section{border-top:1px solid var(--line);padding:86px 0}.section-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:56px}.section h2{font-size:27px;line-height:1.35;letter-spacing:-.05em;font-weight:400;margin:0}.section p{margin:0 0 16px;color:#555}.section .lead{font-size:16px;color:#222}.why{background:var(--soft)}.why .section-grid{align-items:start}.why p:last-child{margin-bottom:0}
+    /* Plato destacado: una galería visual independiente entre las secciones 01 y 02 */
+    .dishes{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:70px 0 62px;background:#fbfbf8;overflow:hidden}.dishes-head{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:28px}.dishes-head .eyebrow{margin-bottom:10px}.dishes-title{font-family:var(--serif);font-weight:400;letter-spacing:-.04em;font-size:clamp(28px,4vw,42px);line-height:1.15;margin:0}.dishes-intro{max-width:340px;margin:0;color:#666;font-size:12px;line-height:1.8}.dish-slider{position:relative}.dish-viewport{overflow:hidden;touch-action:pan-y pinch-zoom}.dish-track{display:flex;transition:transform .55s cubic-bezier(.22,.68,0,1);will-change:transform}.dish-slide{min-width:100%;flex:0 0 100%;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(190px,.7fr);align-items:center;gap:clamp(24px,6vw,76px);padding:8px 6.5% 18px}.dish-art{height:clamp(280px,42vw,460px);display:grid;place-items:center;min-width:0}.dish-art img{display:block;width:100%;height:100%;object-fit:contain}.dish-copy{padding:20px 0}.dish-number{display:block;color:var(--green);font-size:10px;letter-spacing:.16em;margin-bottom:18px}.dish-copy h3{font-family:var(--serif);font-size:clamp(26px,3vw,38px);font-weight:400;line-height:1.2;letter-spacing:-.035em;margin:0 0 16px}.dish-copy p{font-size:12px;color:#777;margin:0;max-width:250px}.dish-controls{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 6.5%;margin-top:4px}.dish-arrows{display:flex;gap:8px}.dish-arrow{width:42px;height:42px;border:1px solid #deded7;background:transparent;color:var(--ink);display:grid;place-items:center;cursor:pointer;transition:background .2s,color .2s,border-color .2s}.dish-arrow:hover{background:var(--green);border-color:var(--green);color:white}.dish-arrow:focus-visible,.dish-dot:focus-visible{outline:2px solid var(--green);outline-offset:4px}.dish-arrow svg{width:17px;height:17px}.dish-pagination{display:flex;align-items:center;gap:8px}.dish-dot{width:7px;height:7px;border:0;border-radius:50%;padding:0;background:#d0d0c8;cursor:pointer;transition:background .2s,transform .2s}.dish-dot[aria-current="true"]{background:var(--green);transform:scale(1.35)}.dish-count{font-size:10px;color:#777;letter-spacing:.1em;margin-left:10px;min-width:44px;text-align:right}.contact{padding:70px 0;text-align:center}.contact h2{margin-bottom:18px}.contact p{color:#666;margin:0 auto 24px;max-width:540px}footer{border-top:1px solid var(--line);padding:30px 0;display:flex;justify-content:space-between;align-items:center;gap:20px;color:#777;font-size:10px}footer a{text-decoration:none}footer .links{display:flex;gap:18px;flex-wrap:wrap}.whatsapp{position:fixed;right:22px;bottom:22px;z-index:5;width:56px;height:56px;border-radius:50%;background:var(--green);color:white;display:grid;place-items:center;text-decoration:none;box-shadow:0 4px 16px #0002;transition:transform .2s,background .2s}.whatsapp:hover{background:var(--green-dark);transform:translateY(-2px)}.whatsapp svg{width:27px;height:27px;fill:currentColor}
+    @media(max-width:720px){header{height:66px;padding:0 22px}.wrap{width:calc(100% - 44px)}.hero{grid-template-columns:1fr;gap:34px;padding-top:56px;padding-bottom:56px;min-height:0}.hero h1{font-size:39px}.hero img{height:auto;max-height:390px;aspect-ratio:1.25;object-fit:cover}.section{padding:58px 0}.section-grid{grid-template-columns:1fr;gap:24px}.section h2{font-size:25px}.dishes{padding:52px 0 42px}.dishes-head{display:block;margin-bottom:18px}.dishes-intro{margin-top:14px;max-width:420px}.dish-slide{grid-template-columns:1fr;gap:0;padding:0 2% 20px}.dish-art{height:clamp(250px,76vw,390px)}.dish-copy{text-align:center;padding:2px 0 16px}.dish-number{margin-bottom:8px}.dish-copy h3{font-size:30px;margin-bottom:8px}.dish-copy p{margin:auto}.dish-controls{padding:0 2%}.dish-arrow{width:40px;height:40px}.contact{padding:58px 0}footer{align-items:flex-start;flex-direction:column;gap:12px}.whatsapp{right:16px;bottom:16px;width:54px;height:54px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Vera Microgreens","url":"https://veramicrogreens.com.ar/","description":"Microgreens decorativos para gastronomía.","contactPoint":{"@type":"ContactPoint","contactType":"sales","url":"https://wa.me/5491168848716"}}</script>
 </head>
@@ -29,9 +33,117 @@
       <figure><img src="/images/studioshot_square_plain.png" alt="Microgreens de rúcula frescos, listos para acompañar platos gastronómicos" width="1200" height="820" fetchpriority="high"><figcaption>Rúcula · Cultivo joven</figcaption></figure>
     </section>
     <section class="section" id="microgreens"><div class="wrap section-grid"><div><p class="eyebrow">01 / Qué son</p><h2>Pequeños brotes,<br>grandes posibilidades.</h2></div><div><p class="lead">Los microgreens son vegetales cosechados en sus primeras etapas de crecimiento.</p><p>Sus hojas delicadas, colores vivos y sabores definidos los convierten en un detalle ideal para terminar platos, sumar textura y aportar frescura a cada presentación.</p><p>Se usan en gastronomía para acompañar desde entradas y ensaladas hasta platos principales y propuestas de autor.</p></div></div></section>
-    <section class="section why" id="vera"><div class="wrap section-grid"><div><p class="eyebrow">02 / Vera Microgreens</p><h2>El detalle fresco<br>que hace la diferencia.</h2></div><div><p class="lead">Una propuesta pensada para cocinas que prestan atención a cada detalle.</p><p>En Vera Microgreens nos enfocamos en microgreens decorativos para restaurantes</p><a class="button primary" href="https://wa.me/5491168848716" target="_blank" rel="noopener noreferrer">Contactar a Vera</a></section>
+
+    <section class="dishes" aria-labelledby="dishes-title" aria-roledescription="carrusel">
+      <div class="wrap">
+        <div class="dishes-head">
+          <div><p class="eyebrow">En la mesa / Ideas de presentación</p><h2 class="dishes-title" id="dishes-title">El toque final<br>también se saborea.</h2></div>
+          <p class="dishes-intro">Un detalle de frescura, color y textura puede transformar la presentación de cada plato.</p>
+        </div>
+        <div class="dish-slider" id="dish-slider">
+          <div class="dish-viewport" id="dish-viewport">
+            <div class="dish-track" id="dish-track">
+              <article class="dish-slide" role="group" aria-roledescription="diapositiva" aria-label="1 de 5">
+                <div class="dish-art"><img src="/images/platos/ensalada-caprese-transparente.png" alt="Ensalada caprese presentada con microgreens" width="1200" height="1000" fetchpriority="high"></div>
+                <div class="dish-copy"><span class="dish-number">01 — 05</span><h3>Frescura en cada hoja.</h3><p>Ensalada caprese · Un acabado fresco para los clásicos de siempre.</p></div>
+              </article>
+              <article class="dish-slide" role="group" aria-roledescription="diapositiva" aria-label="2 de 5">
+                <div class="dish-art"><img src="/images/platos/huevos-revueltos-transparente.png" alt="Huevos revueltos con microgreens frescos" width="1200" height="1000" loading="lazy"></div>
+                <div class="dish-copy"><span class="dish-number">02 — 05</span><h3>Simple, con carácter.</h3><p>Huevos revueltos · Color y textura para elevar un plato cotidiano.</p></div>
+              </article>
+              <article class="dish-slide" role="group" aria-roledescription="diapositiva" aria-label="3 de 5">
+                <div class="dish-art"><img src="/images/platos/noquis-calabaza-transparente.png" alt="Ñoquis de calabaza terminados con microgreens" width="1200" height="1000" loading="lazy"></div>
+                <div class="dish-copy"><span class="dish-number">03 — 05</span><h3>Color que completa.</h3><p>Ñoquis de calabaza · Un contraste delicado para platos de autor.</p></div>
+              </article>
+              <article class="dish-slide" role="group" aria-roledescription="diapositiva" aria-label="4 de 5">
+                <div class="dish-art"><img src="/images/platos/sopa-crema-transparente.png" alt="Sopa crema decorada con microgreens" width="1200" height="1000" loading="lazy"></div>
+                <div class="dish-copy"><span class="dish-number">04 — 05</span><h3>Un final delicado.</h3><p>Sopa crema · Un toque verde que destaca sobre cada textura.</p></div>
+              </article>
+              <article class="dish-slide" role="group" aria-roledescription="diapositiva" aria-label="5 de 5">
+                <div class="dish-art"><img src="/images/platos/tostadas-pulpo-transparente.png" alt="Tostadas con pulpo y microgreens frescos" width="1200" height="1000" loading="lazy"></div>
+                <div class="dish-copy"><span class="dish-number">05 — 05</span><h3>Detalles de autor.</h3><p>Tostadas con pulpo · Frescura visual para una presentación memorable.</p></div>
+              </article>
+            </div>
+          </div>
+          <div class="dish-controls">
+            <div class="dish-arrows">
+              <button class="dish-arrow" type="button" id="dish-prev" aria-label="Ver plato anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg></button>
+              <button class="dish-arrow" type="button" id="dish-next" aria-label="Ver plato siguiente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+            </div>
+            <div class="dish-pagination" id="dish-pagination" aria-label="Elegir plato">
+              <button class="dish-dot" type="button" aria-label="Ir al plato 1" aria-current="true"></button>
+              <button class="dish-dot" type="button" aria-label="Ir al plato 2" aria-current="false"></button>
+              <button class="dish-dot" type="button" aria-label="Ir al plato 3" aria-current="false"></button>
+              <button class="dish-dot" type="button" aria-label="Ir al plato 4" aria-current="false"></button>
+              <button class="dish-dot" type="button" aria-label="Ir al plato 5" aria-current="false"></button>
+              <span class="dish-count" id="dish-count" aria-hidden="true">01 / 05</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why" id="vera"><div class="wrap section-grid"><div><p class="eyebrow">02 / Vera Microgreens</p><h2>El detalle fresco<br>que hace la diferencia.</h2></div><div><p class="lead">Una propuesta pensada para cocinas que prestan atención a cada detalle.</p><p>En Vera Microgreens nos enfocamos en microgreens decorativos para restaurantes.</p><a class="button primary" href="https://wa.me/5491168848716" target="_blank" rel="noopener noreferrer">Contactar a Vera</a></div></div></section>
   </main>
   <footer class="wrap"><span>© <span id="year">2026</span> Vera Microgreens</span><div class="links"><a href="https://wa.me/5491168848716" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="mailto:veramicrogreens@gmail.com">Email</a><a href="#inicio">Volver arriba ↑</a></div></footer>
   <a class="whatsapp" href="https://wa.me/5491168848716" target="_blank" rel="noopener noreferrer" aria-label="Contactar a Vera Microgreens por WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.82 11.82 0 0 0 12.08 0C5.52 0 .18 5.34.18 11.9c0 2.1.55 4.15 1.6 5.96L.08 24l6.3-1.65a11.9 11.9 0 0 0 5.7 1.45h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.47-8.42ZM12.09 21.8a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.74.98 1-3.64-.24-.38a9.85 9.85 0 0 1-1.52-5.26c0-5.47 4.45-9.92 9.92-9.92a9.84 9.84 0 0 1 7.02 2.91 9.84 9.84 0 0 1 2.9 7.02c0 5.47-4.45 9.92-9.93 9.92Zm5.44-7.42c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.18.2-.35.23-.65.08-.3-.15-1.26-.46-2.4-1.47-.88-.78-1.47-1.74-1.64-2.04-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.53.08-.8.38-.28.3-1.05 1.02-1.05 2.49s1.08 2.89 1.23 3.09c.15.2 2.12 3.24 5.14 4.54.72.31 1.28.5 1.72.64.72.23 1.37.2 1.89.12.58-.09 1.77-.73 2.02-1.44.25-.72.25-1.33.17-1.46-.08-.13-.28-.2-.58-.35Z"/></svg></a>
+  <script>
+    (() => {
+      const slider = document.getElementById('dish-slider');
+      const track = document.getElementById('dish-track');
+      const slides = Array.from(track.querySelectorAll('.dish-slide'));
+      const dots = Array.from(document.querySelectorAll('.dish-dot'));
+      const count = document.getElementById('dish-count');
+      const previous = document.getElementById('dish-prev');
+      const next = document.getElementById('dish-next');
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      let active = 0;
+      let startX = 0;
+      let pointerDown = false;
+      let timer;
+      const pad = value => String(value).padStart(2, '0');
+
+      function goTo(index) {
+        active = (index + slides.length) % slides.length;
+        track.style.transform = 'translateX(-' + (active * 100) + '%)';
+        slides.forEach((slide, i) => {
+          slide.setAttribute('aria-label', (i + 1) + ' de ' + slides.length);
+          slide.setAttribute('aria-hidden', i === active ? 'false' : 'true');
+          slide.inert = i !== active;
+        });
+        dots.forEach((dot, i) => dot.setAttribute('aria-current', i === active ? 'true' : 'false'));
+        count.textContent = pad(active + 1) + ' / ' + pad(slides.length);
+      }
+      function stopAutoplay() { window.clearInterval(timer); }
+      function startAutoplay() {
+        stopAutoplay();
+        if (!reducedMotion.matches && !document.hidden) {
+          timer = window.setInterval(() => {
+            if (!slider.matches(':hover') && !slider.contains(document.activeElement)) goTo(active + 1);
+          }, 6000);
+        }
+      }
+      previous.addEventListener('click', () => { goTo(active - 1); startAutoplay(); });
+      next.addEventListener('click', () => { goTo(active + 1); startAutoplay(); });
+      dots.forEach((dot, i) => dot.addEventListener('click', () => { goTo(i); startAutoplay(); }));
+      slider.addEventListener('mouseenter', stopAutoplay);
+      slider.addEventListener('mouseleave', startAutoplay);
+      slider.addEventListener('focusin', stopAutoplay);
+      slider.addEventListener('focusout', event => { if (!slider.contains(event.relatedTarget)) startAutoplay(); });
+      document.addEventListener('visibilitychange', startAutoplay);
+      reducedMotion.addEventListener?.('change', startAutoplay);
+      const viewport = document.getElementById('dish-viewport');
+      viewport.addEventListener('pointerdown', event => { startX = event.clientX; pointerDown = true; });
+      viewport.addEventListener('pointerup', event => {
+        if (!pointerDown) return;
+        const delta = event.clientX - startX;
+        if (Math.abs(delta) > 45) { goTo(active + (delta < 0 ? 1 : -1)); startAutoplay(); }
+        pointerDown = false;
+      });
+      viewport.addEventListener('pointercancel', () => { pointerDown = false; });
+      goTo(0);
+      startAutoplay();
+    })();
+  </script>
 </body>
 </html>
