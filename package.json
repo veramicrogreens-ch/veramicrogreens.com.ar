@@ -1,9 +1,0 @@
-{
-  "name": "vera-microgreens-static",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Sitio estático de Vera Microgreens, sin frameworks ni dependencias.",
-  "scripts": {
-    "build": "node build.js"
-  }
-}
